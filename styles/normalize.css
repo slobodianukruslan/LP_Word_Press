@@ -1,0 +1,38 @@
+* {
+	/* box-sizing */
+	 box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+
+   /* Скидання відступів браузера */
+   margin: 0;
+   padding: 0;
+  /* Для плавної анімації*/
+   transition: all .1s ease-in;
+  /*Заборона лінії у фокусі*/
+   outline: none;
+ }
+
+ /* Класс псевдораспорки */
+ 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear-fix:after, 
+.clear-fix:before{
+  clear: both;
+  content: '';
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  /*color: #000;*/
+}
