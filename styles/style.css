@@ -673,13 +673,13 @@ footer {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 377px) {
 	
 	/* HEADER */
 
 	header {
-		padding: 10px 0;
 		height: 100vh;
+		padding-top: 25px;
 	}
 
 	.logo__text {
@@ -693,7 +693,7 @@ footer {
 	.main__tittle,
 	.properly__tittle {
 		font-size: 16px;
-		margin-top: 10px;		
+		margin-top: 20px;		
 	}
 
 	.simple__tittle:before,
@@ -725,11 +725,11 @@ footer {
 		height: 45px;
 		width: 60%;
 		font-size: 14px;
-		margin-top: 10px;
+		margin-top: 15px;
 	}
 
 	.more {
-		margin-top: 10px;
+		margin-top: 15px;
 	}
 
 	.more__text {
@@ -740,6 +740,10 @@ footer {
 
 	.waiting {
 		padding: 20px 0;
+	}
+
+	.waiting__item {
+		margin-bottom: 47px;
 	}
 
 	.waiting_description {
