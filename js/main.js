@@ -15,4 +15,6 @@ $(document).ready(function(){
 	function effectSecond() {
 		$(".border_2").css("width","70%");
 	}
+
+	new WOW().init();
 });
